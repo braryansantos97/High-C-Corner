@@ -5,13 +5,14 @@ import Home from '../pages/Home'
 
 const AppRouter = () => {
 
+
+    
+
     return(
         <Router>
             <div className='container'>
                 <Routes>
-                    <Route>
-                        <Home />
-                    </Route>
+                    <Route path='/' element={<Home />} />
                 {routes.map(({ Element, key, path }) => (
   					<Route
   						key={key}

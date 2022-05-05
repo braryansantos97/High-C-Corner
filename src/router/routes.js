@@ -10,7 +10,7 @@ const routes = [
     {
         Element: Home,
         key: 'Home',
-        path: '/home'
+        path: '/'
     },
     {
         Element: About,
