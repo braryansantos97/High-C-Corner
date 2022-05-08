@@ -1,10 +1,10 @@
 import React from 'react'
 
-export default function About() {
+export default function MoviesSearchBar() {
     
     return (
         <div className='text-center'>
-            <h1>About</h1>
+            <h1>MoviesSearchBar</h1>
         </div>
     )
 }

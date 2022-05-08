@@ -4,22 +4,9 @@ export default function AnimeNews() {
 
     const [animeNews, setAnimeNews] = useState([]);
 
-
-    useEffect(() => {
-		(async () => {
-			try {
-				const getAnimeNews = await fetch(`https://cdn.animenewsnetwork.com/encyclopedia/api.xml?anime=1`);
-				const data = await getAnimeNews
-				setAnimeNews(data);
-                console.log(data);
-			} catch (error) {
-				console.error(error);
-			}
-		})();
-	}, []);
     
     return (
-        <div>
+        <div className='container-fluid text-center'>
             <h1>Anime News</h1>
         </div>
     )

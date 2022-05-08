@@ -1,13 +1,10 @@
-// import './App.css';
+
 import AppRouter from './router/index.js';
 
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        Hello world
-      </header>
+    <div className="App container-fluid">
       <AppRouter />
     </div>
   );

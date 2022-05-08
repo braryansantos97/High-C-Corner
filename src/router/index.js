@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import routes from './routes';
 import Home from '../pages/Home'
+import Navbar from '../components/Navbar';
 
 const AppRouter = () => {
 
@@ -10,7 +11,8 @@ const AppRouter = () => {
 
     return(
         <Router>
-            <div className='container'>
+            <div className='cotainer-fliud'>
+                <Navbar />
                 <Routes>
                     <Route path='/' element={<Home />} />
                 {routes.map(({ Element, key, path }) => (

@@ -3,7 +3,7 @@ import React from 'react'
 export default function ContactMe() {
     
     return (
-        <div>
+        <div className='text-center'>
             <h1>Contact Me</h1>
         </div>
     )
